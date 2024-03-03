@@ -34,7 +34,7 @@
     ```
 
 3. **install WinGroundRm :**
- ⚠️ Run this command in an administrative command prompt. It will add the Context Menu Entry, download the U2Net model, and place it at `C:\Users\{currentUser}\.u2net`. Make sure not     to delete `test.png` before executing this command:
+ ⚠️ Run this command in an administrative command prompt. It will add the Context Menu Entry and it will download the U2Net model, and place it at `C:\Users\{currentUser}\.u2net`. Make     sure not to delete `test.png` before executing this command:
 
 
     ```bash
@@ -65,4 +65,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-**Note**: Include additional sections or badges (e.g., build status, version) based on your project's specific needs.
