@@ -33,13 +33,15 @@
     pip install rembg pillow
     ```
 
-3. **Add Context Menu Entry:**
+3. **install WinGroundRm :**
+ ⚠️ Run this command in an administrative command prompt. It will add the Context Menu Entry, download the U2Net model, and place it at `C:\Users\{currentUser}\.u2net`. Make sure not     to delete `test.png` before executing this command:
+
 
     ```bash
     python WinGroundRm.py
     ```
 
-4. **Usage:**
+5. **Usage:**
 
     Right-click on an image file in Windows Explorer to see the new "WinGroundRm remove Background image" option.
 
