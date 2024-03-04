@@ -1,6 +1,8 @@
+<p align="center">
 # WinGroundRm
+</p>
 
-![WinGroundRm Logo](link_to_logo_image.png)
+
 
 > Add a context menu option to Windows Explorer for easy background removal from images.
 
