@@ -4,7 +4,7 @@ WinGroundRm
 
 
 
-> Add a context menu option to Windows Explorer for easy background removal from images.
+WinGround streamlines the process of removing backgrounds from images with direct integration into the Windows Explorer context menu. This feature allows you to quickly eliminate unwanted backgrounds from your images with just a few clicks.
 
 https://github.com/MdCode002/WinGroundRm/assets/111018812/da6799ab-6971-4d33-91bd-c95ffc06ea22
 
