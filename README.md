@@ -6,6 +6,11 @@ WinGroundRm
 
 > Add a context menu option to Windows Explorer for easy background removal from images.
 
+https://github.com/MdCode002/WinGroundRm/assets/111018812/da6799ab-6971-4d33-91bd-c95ffc06ea22
+
+
+---
+
 ## Table of Contents
 - [Features](#features)
 - [Installation](#installation)
@@ -57,7 +62,8 @@ WinGroundRm
 1. Right-click on an image file in Windows Explorer.
 2. Select the "WinGroundRm remove Background image" option from the context menu.
 3. The background will be removed, and the modified image will be saved in the same directory.
-  ![screenshot](https://github.com/MdCode002/WinGroundRm/assets/111018812/750c55fd-421a-4d30-8f04-bb40cf9e6e33)
+   
+
 
 ## Uninstall
 
