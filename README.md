@@ -1,6 +1,8 @@
-# WinGroundRm
+<h1 align="center">
+WinGroundRm
+</h1>
 
-![WinGroundRm Logo](link_to_logo_image.png)
+
 
 > Add a context menu option to Windows Explorer for easy background removal from images.
 
@@ -33,13 +35,16 @@
     pip install rembg pillow
     ```
 
-3. **Add Context Menu Entry:**
+3. **install WinGroundRm :**
+ ⚠️ Run this command in an administrative command prompt. It will add the Context Menu Entry and it will download the U2Net model, and place it at `C:\Users\{currentUser}\.u2net`. Make     sure not to delete `test.png` before executing this command:
+ ⚠️ After installation, please avoid moving the WinGroundRm folder. If needed, uninstall it and then reinstall it.
+   
 
     ```bash
     python WinGroundRm.py
     ```
 
-4. **Usage:**
+5. **Usage:**
 
     Right-click on an image file in Windows Explorer to see the new "WinGroundRm remove Background image" option.
 
@@ -63,4 +68,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-**Note**: Include additional sections or badges (e.g., build status, version) based on your project's specific needs.
