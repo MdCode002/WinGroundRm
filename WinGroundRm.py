@@ -48,6 +48,10 @@ def add_registry_entry(script_name):
                 reg.REG_SZ,
                 rf'"{pythonw_executable}" "{os.path.join(script_dir, script_name)}" "%1"',
             )
+            remove_background(
+            os.path.join(script_dir, "test.png"),
+            os.path.join(script_dir, "test_result.png"),
+        )
         except Exception as e:
             print(f"Erreur : {str(e)}")
             return False
@@ -55,10 +59,7 @@ def add_registry_entry(script_name):
             reg.CloseKey(key)
             reg.CloseKey(command_key)
         
-        remove_background(
-            os.path.join(script_dir, "test.png"),
-            os.path.join(script_dir, "test_result.png"),
-        )
+        
         print("Option ajoutée avec succès !")
         return False
     else:
