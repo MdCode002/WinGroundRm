@@ -10,9 +10,12 @@ WinGroundRm
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
+- [Uninstall](#Uninstall)
 - [Contributing](#contributing)
+- [Author](#Author)
 - [License](#license)
+
+  
 
 ## Features
 
@@ -36,7 +39,8 @@ WinGroundRm
     ```
 
 3. **install WinGroundRm :**
- ⚠️ Run this command in an administrative command prompt. It will add the Context Menu Entry and it will download the U2Net model, and place it at `C:\Users\{currentUser}\.u2net`. Make     sure not to delete `test.png` before executing this command:
+ ⚠️ Run this command in an administrative command prompt. It will add the Context Menu Entry and it will download the U2Net model, and place it at `C:\Users\{currentUser}\.u2net`.<br>
+⚠️ Make sure not to delete `test.png` before executing this command.<br>
  ⚠️ After installation, please avoid moving the WinGroundRm folder. If needed, uninstall it and then reinstall it.
    
 
@@ -54,13 +58,26 @@ WinGroundRm
 2. Select the "WinGroundRm remove Background image" option from the context menu.
 3. The background will be removed, and the modified image will be saved in the same directory.
 
-## Configuration
+## Uninstall
 
-No additional configuration is required. The script automatically adds the necessary entries to the Windows Registry.
+To uninstall WinGroundRm, run the following command in an administrative command prompt:
+
+   ```bash
+    python uninstall.py
+
+   ```
+This will remove the U2Net model and delete the registry entries created by WinGroundRm.
+
+
 
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+## Author
+- Developed by: Mouhamed Diouf
+- GitHub: [@MdCode002](https://github.com/MdCode002)
+- Email: dioufmouhamed002@gmail.com
 
 ## License
 
