@@ -38,12 +38,13 @@ https://github.com/MdCode002/WinGroundRm/assets/111018812/da6799ab-6971-4d33-91b
     ```
 
 2. **Install Dependencies:**
+Make sure you have Python installed on your computer, then execute that command.
 
     ```bash
     pip install rembg pillow
     ```
 
-3. **install WinGroundRm :**<br>
+4. **install WinGroundRm :**<br>
  ⚠️ Run this command in an administrative command prompt. It will add the Context Menu Entry and it will download the U2Net model, and place it at `C:\Users\{currentUser}\.u2net`.<br>
 ⚠️ Make sure not to delete `test.png` before executing this command.<br>
  ⚠️ After installation, please avoid moving the WinGroundRm folder. If needed, uninstall it and then reinstall it.
