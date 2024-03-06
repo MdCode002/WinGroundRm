@@ -47,7 +47,8 @@ def add_registry_entry(script_name):
                 "",
                 reg.REG_SZ,
                 rf'"{pythonw_executable}" "{os.path.join(script_dir, script_name)}" "%1"',
-            )
+            ) 
+            #Cette fonction est appelée sur l'image test pour télécharger le modèle Unet2.
             remove_background(
             os.path.join(script_dir, "test.png"),
             os.path.join(script_dir, "test_result.png"),
