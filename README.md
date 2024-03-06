@@ -37,7 +37,7 @@ https://github.com/MdCode002/WinGroundRm/assets/111018812/da6799ab-6971-4d33-91b
     cd WinGroundRm
     ```
 
-2. **Install Dependencies:**
+2. **Install Dependencies:**<br>
 Make sure you have Python installed on your computer, then execute that command.
 
     ```bash
